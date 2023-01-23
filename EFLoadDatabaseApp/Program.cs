@@ -136,8 +136,6 @@ namespace EFLoadDatabaseApp
                     Console.WriteLine($"{employe.Name} {employe?.Position?.Title}");
                     Console.WriteLine($"{employe?.Company?.Title} {employe?.Company?.Country?.Title} {employe?.Company?.Country?.Capital?.Title}");
                     Console.WriteLine();
-
-                        
                 }
             }
         }
